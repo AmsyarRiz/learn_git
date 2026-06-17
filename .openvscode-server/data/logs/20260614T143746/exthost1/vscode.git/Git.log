@@ -1,0 +1,160 @@
+2026-06-14 14:38:16.946 [info] [main] Log level: Info
+2026-06-14 14:38:16.946 [info] [main] Validating found git in: "git"
+2026-06-14 14:38:16.946 [info] [main] Using git "2.43.0" from "git"
+2026-06-14 14:38:16.946 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-14 14:38:16.946 [info] > git rev-parse --show-toplevel [10ms]
+2026-06-14 14:38:16.946 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-14 14:38:16.946 [info] > git rev-parse --show-toplevel [1ms]
+2026-06-14 14:38:16.946 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-14 14:38:16.946 [info] > git rev-parse --show-toplevel [1ms]
+2026-06-14 14:38:16.946 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-14 14:38:16.946 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-14 14:38:16.946 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-14 14:38:16.946 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-14 14:38:18.944 [info] > git rev-parse --show-toplevel [15ms]
+2026-06-14 14:38:18.944 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-14 14:38:19.703 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-14 14:38:19.703 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-14 14:43:09.690 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-14 14:43:09.703 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-14 14:43:09.727 [info] [Model][openRepository] Opened repository (path): /home/vsysuser/workspace/assignment1-AmsyarRiuan
+2026-06-14 14:43:09.727 [info] [Model][openRepository] Opened repository (real path): /home/vsysuser/workspace/assignment1-AmsyarRiuan
+2026-06-14 14:43:09.727 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-14 14:43:09.739 [info] > git config --get commit.template [3ms]
+2026-06-14 14:43:09.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2026-06-14 14:43:09.750 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:43:09.764 [info] > git status -z -uall [8ms]
+2026-06-14 14:43:09.766 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-06-14 14:43:09.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2026-06-14 14:43:09.787 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:43:09.788 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-14 14:43:09.790 [info] > git config --get commit.template [2ms]
+2026-06-14 14:43:09.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2026-06-14 14:43:09.798 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:43:09.811 [info] > git status -z -uall [8ms]
+2026-06-14 14:43:09.812 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-06-14 14:43:10.382 [info] > git check-ignore -v -z --stdin [1ms]
+2026-06-14 14:51:22.574 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiuan/.git/HEAD'
+2026-06-14 14:51:22.586 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiuan/.git/config'
+2026-06-14 14:51:22.599 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiuan/.git/HEAD'
+2026-06-14 14:51:22.608 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiuan/.git/config'
+2026-06-14 14:51:49.398 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-14 14:51:49.408 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
+2026-06-14 14:51:49.414 [info] [Model][openRepository] Opened repository (path): /home/vsysuser/workspace/assignment1-AmsyarRiuan
+2026-06-14 14:51:49.414 [info] [Model][openRepository] Opened repository (real path): /home/vsysuser/workspace/assignment1-AmsyarRiuan
+2026-06-14 14:51:49.414 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-14 14:51:49.428 [info] > git config --get commit.template [7ms]
+2026-06-14 14:51:49.428 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-06-14 14:51:49.428 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:51:49.442 [info] > git status -z -uall [8ms]
+2026-06-14 14:51:49.443 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-14 14:51:49.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2026-06-14 14:51:49.461 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:51:49.461 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-14 14:51:49.462 [info] > git config --get commit.template [3ms]
+2026-06-14 14:51:49.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-06-14 14:51:49.470 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:51:49.483 [info] > git status -z -uall [7ms]
+2026-06-14 14:51:49.484 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-14 14:51:50.029 [info] > git check-ignore -v -z --stdin [1ms]
+2026-06-14 14:53:08.980 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiuan/.git/HEAD'
+2026-06-14 14:53:08.991 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiuan/.git/config'
+2026-06-14 14:53:09.004 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiuan/.git/HEAD'
+2026-06-14 14:53:09.015 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiuan/.git/config'
+2026-06-14 14:56:06.569 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-14 14:56:06.582 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
+2026-06-14 14:56:06.589 [info] [Model][openRepository] Opened repository (path): /home/vsysuser/workspace/assignment1-AmsyarRizuan
+2026-06-14 14:56:06.590 [info] [Model][openRepository] Opened repository (real path): /home/vsysuser/workspace/assignment1-AmsyarRizuan
+2026-06-14 14:56:06.590 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-14 14:56:06.609 [info] > git config --get commit.template [9ms]
+2026-06-14 14:56:06.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2026-06-14 14:56:06.612 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:56:06.630 [info] > git status -z -uall [9ms]
+2026-06-14 14:56:06.631 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-14 14:56:06.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2026-06-14 14:56:06.654 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:56:06.654 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-14 14:56:06.655 [info] > git config --get commit.template [2ms]
+2026-06-14 14:56:06.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2026-06-14 14:56:06.665 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:56:06.683 [info] > git status -z -uall [10ms]
+2026-06-14 14:56:06.684 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-06-14 14:56:08.049 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRizuan/.git/HEAD'
+2026-06-14 14:56:08.060 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRizuan/.git/config'
+2026-06-14 14:56:08.073 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRizuan/.git/HEAD'
+2026-06-14 14:56:08.084 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRizuan/.git/config'
+2026-06-14 14:56:59.981 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-14 14:56:59.991 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2026-06-14 14:56:59.995 [info] [Model][openRepository] Opened repository (path): /home/vsysuser/workspace/assignment1-AmsyarRiz
+2026-06-14 14:56:59.995 [info] [Model][openRepository] Opened repository (real path): /home/vsysuser/workspace/assignment1-AmsyarRiz
+2026-06-14 14:56:59.995 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-14 14:57:00.013 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-06-14 14:57:00.014 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:57:00.014 [info] > git config --get commit.template [11ms]
+2026-06-14 14:57:00.031 [info] > git status -z -uall [10ms]
+2026-06-14 14:57:00.032 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-06-14 14:57:00.051 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-06-14 14:57:00.051 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:57:00.052 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-14 14:57:00.053 [info] > git config --get commit.template [3ms]
+2026-06-14 14:57:00.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-06-14 14:57:00.061 [warning] [Git][getBranch] No such branch: master
+2026-06-14 14:57:00.077 [info] > git status -z -uall [10ms]
+2026-06-14 14:57:00.077 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-14 14:57:00.623 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-14 14:57:01.942 [info] > git config --get commit.template [8ms]
+2026-06-14 14:57:01.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-06-14 14:57:01.951 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiz/.git/refs/remotes/origin/main'
+2026-06-14 14:57:01.953 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2026-06-14 14:57:01.968 [info] > git status -z -uall [9ms]
+2026-06-14 14:57:01.970 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-06-14 14:57:01.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-14 14:57:02.003 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2026-06-14 14:57:02.003 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-14 14:57:02.015 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2026-06-14 14:57:02.023 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2026-06-14 14:57:02.032 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2026-06-14 14:57:02.041 [info] > git config --add --local branch.main.vscode-merge-base origin/main [2ms]
+2026-06-14 14:57:02.051 [info] > git config --get commit.template [1ms]
+2026-06-14 14:57:02.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-14 14:57:02.065 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiz/.git/refs/remotes/origin/main'
+2026-06-14 14:57:02.067 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-06-14 14:57:02.081 [info] > git status -z -uall [8ms]
+2026-06-14 14:57:02.083 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-06-14 14:57:02.100 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2026-06-14 14:57:02.110 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2026-06-14 14:57:02.117 [info] > git diff --name-status -z --diff-filter=ADMR 261908b4bc59edacebe6d54dc3b2f934b109acde...refs/remotes/origin/main [10ms]
+2026-06-14 14:57:02.119 [info] > git diff --name-status -z --diff-filter=ADMR 261908b4bc59edacebe6d54dc3b2f934b109acde...refs/remotes/origin/main [3ms]
+2026-06-14 14:57:07.010 [info] > git config --get commit.template [8ms]
+2026-06-14 14:57:07.011 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-06-14 14:57:07.017 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiz/.git/refs/remotes/origin/main'
+2026-06-14 14:57:07.019 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-06-14 14:57:07.036 [info] > git status -z -uall [10ms]
+2026-06-14 14:57:07.036 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-06-14 14:57:07.484 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-14 14:57:10.758 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-14 14:57:11.925 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-14 14:57:14.020 [info] > git show --textconv :modules/01-linux-essentials/README.md [15ms]
+2026-06-14 14:57:14.023 [info] > git ls-files --stage -- modules/01-linux-essentials/README.md [4ms]
+2026-06-14 14:57:14.039 [info] > git cat-file -s 8247155b8eaaf9e89fe42902f657474b8f6f96f7 [4ms]
+2026-06-14 14:57:29.492 [info] > git show --textconv :modules/01-linux-essentials/exercises.md [8ms]
+2026-06-14 14:57:29.494 [info] > git ls-files --stage -- modules/01-linux-essentials/exercises.md [3ms]
+2026-06-14 14:57:29.503 [info] > git cat-file -s 3ef3535a1a31485a67392f79150b744dd6ce35fd [2ms]
+2026-06-14 14:57:37.684 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-14 14:57:39.542 [info] > git show --textconv :modules/02-git-version-control/exercises.md [7ms]
+2026-06-14 14:57:39.544 [info] > git ls-files --stage -- modules/02-git-version-control/exercises.md [2ms]
+2026-06-14 14:57:39.551 [info] > git cat-file -s 244dc5874d70f22bebc5489eadf54b2e0e4194d4 [2ms]
+2026-06-14 14:57:44.241 [info] > git show --textconv :modules/02-git-version-control/SUBMISSION.md [8ms]
+2026-06-14 14:57:44.242 [info] > git ls-files --stage -- modules/02-git-version-control/SUBMISSION.md [2ms]
+2026-06-14 14:57:44.249 [info] > git cat-file -s e541be4f670b13ba39d045393b2bd41dc9c7a835 [1ms]
+2026-06-14 14:57:48.130 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-14 14:57:50.546 [info] > git show --textconv :modules/03-python-programming/exercises.md [8ms]
+2026-06-14 14:57:50.548 [info] > git ls-files --stage -- modules/03-python-programming/exercises.md [2ms]
+2026-06-14 14:57:50.556 [info] > git cat-file -s 0c99b060d96ff2265e32214643753c787200084e [2ms]
+2026-06-14 14:58:10.550 [info] > git show --textconv :modules/03-python-programming/README.md [8ms]
+2026-06-14 14:58:10.551 [info] > git ls-files --stage -- modules/03-python-programming/README.md [2ms]
+2026-06-14 14:58:10.559 [info] > git cat-file -s a8cf5dcfbfc3b2b37d260026b9aa3c245660b2bb [2ms]
+2026-06-14 14:59:57.023 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-14 14:59:59.510 [info] > git show --textconv :modules/02-git-version-control/README.md [8ms]
+2026-06-14 14:59:59.511 [info] > git ls-files --stage -- modules/02-git-version-control/README.md [2ms]
+2026-06-14 14:59:59.520 [info] > git cat-file -s 4183a8bff586abcc88a53b3dd8ff714ab413ea88 [3ms]

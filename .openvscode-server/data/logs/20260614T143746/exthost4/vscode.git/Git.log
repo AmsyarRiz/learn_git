@@ -1,0 +1,65 @@
+2026-06-16 00:16:47.578 [info] [main] Log level: Info
+2026-06-16 00:16:47.578 [info] [main] Validating found git in: "git"
+2026-06-16 00:16:47.578 [info] [main] Using git "2.43.0" from "git"
+2026-06-16 00:16:47.578 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-16 00:16:47.578 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-16 00:16:47.578 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:47.578 [info] > git rev-parse --show-toplevel [3ms]
+2026-06-16 00:16:47.578 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [8ms]
+2026-06-16 00:16:47.578 [info] [Model][openRepository] Opened repository (path): /home/vsysuser/workspace/assignment1-AmsyarRiz
+2026-06-16 00:16:47.578 [info] [Model][openRepository] Opened repository (real path): /home/vsysuser/workspace/assignment1-AmsyarRiz
+2026-06-16 00:16:47.578 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-16 00:16:47.578 [info] > git rev-parse --show-toplevel [8ms]
+2026-06-16 00:16:47.578 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:47.578 [info] > git config --get commit.template [21ms]
+2026-06-16 00:16:47.578 [info] > git rev-parse --show-toplevel [20ms]
+2026-06-16 00:16:47.578 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:47.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2026-06-16 00:16:47.578 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiz/.git/refs/remotes/origin/main'
+2026-06-16 00:16:47.578 [info] > git rev-parse --show-toplevel [15ms]
+2026-06-16 00:16:47.578 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:47.578 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2026-06-16 00:16:47.580 [info] > git status -z -uall [20ms]
+2026-06-16 00:16:47.582 [info] > git rev-parse --show-toplevel [33ms]
+2026-06-16 00:16:47.582 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:47.592 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2026-06-16 00:16:47.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2026-06-16 00:16:47.666 [info] > git rev-parse --show-toplevel [75ms]
+2026-06-16 00:16:47.666 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:47.673 [info] > git config --get commit.template [15ms]
+2026-06-16 00:16:47.674 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2026-06-16 00:16:47.688 [info] > git rev-parse --show-toplevel [16ms]
+2026-06-16 00:16:47.688 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:47.696 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [16ms]
+2026-06-16 00:16:47.706 [info] > git rev-parse --show-toplevel [11ms]
+2026-06-16 00:16:47.706 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:47.707 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-16 00:16:47.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2026-06-16 00:16:47.713 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/assignment1-AmsyarRiz/.git/refs/remotes/origin/main'
+2026-06-16 00:16:47.715 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2026-06-16 00:16:47.725 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2026-06-16 00:16:47.742 [info] > git status -z -uall [10ms]
+2026-06-16 00:16:47.744 [info] > git diff --name-status -z --diff-filter=ADMR 261908b4bc59edacebe6d54dc3b2f934b109acde...refs/remotes/origin/main [21ms]
+2026-06-16 00:16:47.745 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-06-16 00:16:47.793 [info] > git rev-parse --show-toplevel [3ms]
+2026-06-16 00:16:47.793 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:49.313 [info] > git check-ignore -v -z --stdin [8ms]
+2026-06-16 00:16:49.359 [info] > git rev-parse --show-toplevel [3ms]
+2026-06-16 00:16:49.359 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:49.518 [info] > git show --textconv :modules/01-linux-essentials/SUBMISSION.md [8ms]
+2026-06-16 00:16:49.520 [info] > git ls-files --stage -- modules/01-linux-essentials/SUBMISSION.md [3ms]
+2026-06-16 00:16:49.528 [info] > git cat-file -s 515d874fd6f8eb28fa0d290185bec0741d06f6dd [2ms]
+2026-06-16 00:16:50.317 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-16 00:16:50.317 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-16 00:16:52.353 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-16 00:17:00.568 [info] > git show --textconv :modules/02-git-version-control/README.md [8ms]
+2026-06-16 00:17:00.569 [info] > git ls-files --stage -- modules/02-git-version-control/README.md [2ms]
+2026-06-16 00:17:00.586 [info] > git cat-file -s 4183a8bff586abcc88a53b3dd8ff714ab413ea88 [7ms]
+2026-06-16 00:17:31.431 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-16 00:17:32.984 [info] > git show --textconv :modules/03-python-programming/exercises.md [10ms]
+2026-06-16 00:17:32.985 [info] > git ls-files --stage -- modules/03-python-programming/exercises.md [2ms]
+2026-06-16 00:17:32.993 [info] > git cat-file -s 0c99b060d96ff2265e32214643753c787200084e [2ms]
+2026-06-16 00:17:48.396 [info] > git blame --root --incremental 261908b4bc59edacebe6d54dc3b2f934b109acde -- modules/03-python-programming/exercises.md [3ms]
+2026-06-16 00:18:31.039 [info] > git show --textconv :modules/01-linux-essentials/SUBMISSION.md [7ms]
+2026-06-16 00:18:31.041 [info] > git ls-files --stage -- modules/01-linux-essentials/SUBMISSION.md [2ms]
+2026-06-16 00:18:31.048 [info] > git cat-file -s 515d874fd6f8eb28fa0d290185bec0741d06f6dd [1ms]

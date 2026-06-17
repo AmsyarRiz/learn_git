@@ -1,0 +1,3 @@
+2026-06-17 00:37:38.108 [info] Log level: Info
+2026-06-17 00:37:40.538 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-06-17 00:51:26.466 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for vyomasystems-lab/assignment1-AmsyarRiz: Error: No GitHub authentication session available.
