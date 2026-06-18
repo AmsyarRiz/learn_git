@@ -1,0 +1,5 @@
+*.log
+*.vcd
+*.fsdb
+build/
+__pycache__/
