@@ -245,3 +245,33 @@
 2026-06-17 00:37:34.691 [info] [100.96.4.30][88d086d7][ManagementConnection] New connection established.
 2026-06-17 00:37:34.855 [info] [100.96.4.30][21971247][ExtensionHostConnection] New connection established.
 2026-06-17 00:37:34.864 [info] [100.96.4.30][21971247][ExtensionHostConnection] <21336> Launched Extension Host Process.
+2026-06-17 01:45:26.447 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 01:45:26.706 [info] [100.96.4.30][88d086d7][ManagementConnection] The client has reconnected.
+2026-06-17 01:45:31.854 [info] [100.96.4.30][88d086d7][ManagementConnection] The client has reconnected.
+2026-06-17 01:45:32.104 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 02:02:04.176 [info] [100.96.4.30][88d086d7][ManagementConnection] The client has reconnected.
+2026-06-17 02:02:04.832 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 02:20:24.824 [info] [100.96.4.30][88d086d7][ManagementConnection] The client has reconnected.
+2026-06-17 02:20:25.077 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 02:36:37.588 [info] [100.96.4.30][88d086d7][ManagementConnection] The client has reconnected.
+2026-06-17 02:36:37.845 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 02:53:58.686 [info] [100.96.4.30][88d086d7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-06-17 03:09:06.600 [info] [100.96.4.30][88d086d7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-06-17 03:09:06.601 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 03:09:07.537 [info] [100.96.4.30][88d086d7][ManagementConnection] The client has reconnected.
+2026-06-17 03:26:21.498 [info] [100.96.4.30][88d086d7][ManagementConnection] The client has reconnected.
+2026-06-17 03:26:21.752 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 03:43:42.675 [info] [100.96.4.30][88d086d7][ManagementConnection] The client has reconnected.
+2026-06-17 03:43:42.930 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 04:02:05.252 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 04:04:05.277 [info] [100.96.4.30][88d086d7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-06-17 04:18:53.673 [info] [100.96.4.30][88d086d7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-06-17 04:18:53.673 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 04:23:53.781 [info] [100.96.4.30][88d086d7][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2026-06-17 04:35:01.000 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 04:47:37.192 [error] [100.96.4.30][88d086d7][ManagementConnection] Unknown reconnection token (seen before).
+2026-06-17 04:47:37.445 [info] [100.96.4.30][21971247][ExtensionHostConnection] The client has reconnected.
+2026-06-17 08:05:33.953 [info] [100.96.4.30][21971247][ExtensionHostConnection] <21336> Extension Host Process exited with code: 0, signal: null.
+2026-06-18 07:57:10.582 [info] [100.96.4.30][08ebc132][ManagementConnection] New connection established.
+2026-06-18 07:57:10.787 [info] [100.96.4.30][8ed580ef][ExtensionHostConnection] New connection established.
+2026-06-18 07:57:10.797 [info] [100.96.4.30][8ed580ef][ExtensionHostConnection] <33017> Launched Extension Host Process.
